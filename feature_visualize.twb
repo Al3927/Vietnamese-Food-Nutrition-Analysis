@@ -1,0 +1,2859 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0605.1023                               -->
+<workbook original-version='18.1' source-build='2021.2.0 (20212.21.0605.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (data)' inline='true' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data' name='excel-direct.0rr0zbi14ch14b1gr7758020xsfy'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/mint/Desktop/data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0rr0zbi14ch14b1gr7758020xsfy' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:Q163:no:A1:Q163:0' header='yes' outcome='2'>
+            <column datatype='string' name='TÊN THỨC ĂN' ordinal='0' />
+            <column datatype='integer' name='Calories (kcal)' ordinal='1' />
+            <column datatype='real' name='Protein (g)' ordinal='2' />
+            <column datatype='real' name='Fat (g)' ordinal='3' />
+            <column datatype='real' name='Carbonhydrates (g)' ordinal='4' />
+            <column datatype='real' name='Chất xơ (g)' ordinal='5' />
+            <column datatype='integer' name='Cholesterol (mg)' ordinal='6' />
+            <column datatype='integer' name='Canxi (mg)' ordinal='7' />
+            <column datatype='real' name='Photpho (mg)' ordinal='8' />
+            <column datatype='real' name='Sắt (mg)' ordinal='9' />
+            <column datatype='integer' name='Natri (mg)' ordinal='10' />
+            <column datatype='integer' name='Kali (mg)' ordinal='11' />
+            <column datatype='integer' name='Beta Caroten (mcg)' ordinal='12' />
+            <column datatype='real' name='Vitamin A (mcg)' ordinal='13' />
+            <column datatype='real' name='Vitamin B1 (mg)' ordinal='14' />
+            <column datatype='real' name='Vitamin C (mg)' ordinal='15' />
+            <column datatype='string' name='Loại' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0rr0zbi14ch14b1gr7758020xsfy' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:Q163:no:A1:Q163:0' header='yes' outcome='2'>
+            <column datatype='string' name='TÊN THỨC ĂN' ordinal='0' />
+            <column datatype='integer' name='Calories (kcal)' ordinal='1' />
+            <column datatype='real' name='Protein (g)' ordinal='2' />
+            <column datatype='real' name='Fat (g)' ordinal='3' />
+            <column datatype='real' name='Carbonhydrates (g)' ordinal='4' />
+            <column datatype='real' name='Chất xơ (g)' ordinal='5' />
+            <column datatype='integer' name='Cholesterol (mg)' ordinal='6' />
+            <column datatype='integer' name='Canxi (mg)' ordinal='7' />
+            <column datatype='real' name='Photpho (mg)' ordinal='8' />
+            <column datatype='real' name='Sắt (mg)' ordinal='9' />
+            <column datatype='integer' name='Natri (mg)' ordinal='10' />
+            <column datatype='integer' name='Kali (mg)' ordinal='11' />
+            <column datatype='integer' name='Beta Caroten (mcg)' ordinal='12' />
+            <column datatype='real' name='Vitamin A (mcg)' ordinal='13' />
+            <column datatype='real' name='Vitamin B1 (mg)' ordinal='14' />
+            <column datatype='real' name='Vitamin C (mg)' ordinal='15' />
+            <column datatype='string' name='Loại' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>TÊN THỨC ĂN</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TÊN THỨC ĂN]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TÊN THỨC ĂN</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calories (kcal)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calories (kcal)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Calories (kcal)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Protein (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Protein (g)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Protein (g)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fat (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fat (g)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fat (g)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbonhydrates (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Carbonhydrates (g)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Carbonhydrates (g)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chất xơ (g)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Chất xơ (g)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Chất xơ (g)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cholesterol (mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cholesterol (mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cholesterol (mg)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Canxi (mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Canxi (mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Canxi (mg)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Photpho (mg)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Photpho (mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Photpho (mg)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sắt (mg)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sắt (mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sắt (mg)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Natri (mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Natri (mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Natri (mg)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kali (mg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kali (mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Kali (mg)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beta Caroten (mcg)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Beta Caroten (mcg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Beta Caroten (mcg)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin A (mcg)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin A (mcg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Vitamin A (mcg)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin B1 (mg)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin B1 (mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Vitamin B1 (mg)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vitamin C (mg)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Vitamin C (mg)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Vitamin C (mg)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loại</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Loại]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Loại</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q163:no:A1:Q163:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Beta Caroten (mcg)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Calories (kcal)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Canxi (mg)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Carbonhydrates (g)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Cholesterol (mg)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Chất xơ (g)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Fat (g)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Kali (mg)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Natri (mg)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Photpho (mg)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Protein (g)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Sắt (mg)]' role='measure' type='quantitative' />
+      <column caption='Tên Thức Ăn' datatype='string' name='[TÊN THỨC ĂN]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Vitamin A (mcg)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Vitamin B1 (mg)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Vitamin C (mg)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_0B5FB962BD1B4D879367E2BECACA0833]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Sheet1_0B5FB962BD1B4D879367E2BECACA0833]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Sheet1_0B5FB962BD1B4D879367E2BECACA0833:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Carbonhydrates (g)]' derivation='Avg' name='[avg:Carbonhydrates (g):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fat (g)]' derivation='Avg' name='[avg:Fat (g):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Protein (g)]' derivation='Avg' name='[avg:Protein (g):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TÊN THỨC ĂN]' derivation='None' name='[none:TÊN THỨC ĂN:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Beta Caroten (mcg)]' derivation='Sum' name='[sum:Beta Caroten (mcg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calories (kcal)]' derivation='Sum' name='[sum:Calories (kcal):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Canxi (mg)]' derivation='Sum' name='[sum:Canxi (mg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Carbonhydrates (g)]' derivation='Sum' name='[sum:Carbonhydrates (g):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cholesterol (mg)]' derivation='Sum' name='[sum:Cholesterol (mg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Chất xơ (g)]' derivation='Sum' name='[sum:Chất xơ (g):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fat (g)]' derivation='Sum' name='[sum:Fat (g):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Kali (mg)]' derivation='Sum' name='[sum:Kali (mg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Natri (mg)]' derivation='Sum' name='[sum:Natri (mg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Photpho (mg)]' derivation='Sum' name='[sum:Photpho (mg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Protein (g)]' derivation='Sum' name='[sum:Protein (g):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sắt (mg)]' derivation='Sum' name='[sum:Sắt (mg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Vitamin A (mcg)]' derivation='Sum' name='[sum:Vitamin A (mcg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Vitamin B1 (mg)]' derivation='Sum' name='[sum:Vitamin B1 (mg):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Vitamin C (mg)]' derivation='Sum' name='[sum:Vitamin C (mg):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:TÊN THỨC ĂN:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Cá ngừ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Cua biển&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Gan heo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Khoai lang&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Mực tươi&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sữa mẹ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tim bò&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ba khía muối&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cá đối&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chả bò&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Đậu phộng chiên&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Đậu xanh&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Đường cát trắng&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Huyết heo luộc&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lưỡi heo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ốc bươu&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Thịt heo hộp&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tôm khô&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Xì dầu&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bánh men&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cá mè&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chà bông&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ếch&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kẹo dừa mềm&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kẹo sôcôla&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Rượu nếp&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Thịt thỏ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Xúc xích&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Bánh in chay&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Giò thủ&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Thịt bò khô&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bao tử bò&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cá rô phi&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Da heo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ghẹ&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Nem chua&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Thịt bê nạc&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tôm chua&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bánh sôcôla&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cá nục&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cua đồng&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gan vịt&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Khoai lang nghệ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Muối&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sườn heo bỏ xương&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tim gà&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bánh mì&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cá mỡ&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CocaCola&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gan bò&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kẹo ngậm bạc hà&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mề gà&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Rượu trắng&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Thịt vai chó&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Bánh tráng mỏng&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Đậu phộng&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cá bống&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cật bò&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Hến&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lòngheo (ruột già)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nước thơm&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Thịt gà ta&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tương ớt&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bánh bao&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cá hồi&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Đuôi bò&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Huyết heo sống&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Lươn&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Óc heo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Thịt heo mỡ&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cá trích hộp&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Đầu heo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Gân chân bò&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hải sâm&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Lòng trắng trứng gà&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mè&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Miến dong&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nhộng&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Thịt dê nạc&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Trứng vịt&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bánh mì khô&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Cá mòi&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Củ sắn&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sò&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Thịt vịt&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bao tử heo&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cá thu&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chả quế&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Dăm bông heo&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Gạo tẻ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Khoai tây chiên&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Nghệ khô&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Thịt bò&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tôm đồng&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bắp tươi&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cá thu hộp&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Đậu đen (hạt)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Giòheo bỏ xương&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lòng đỏ trứng gà&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nghệ tươi&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Thịt bò hộp&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bún&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cari bột&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lòng trắng trứngvịt&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nước mắm&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Thịt gà hộp&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Trứng vịt lộn&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Cá chép&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Cật heo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Đậu phụ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Huyết bò&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lưỡi bò&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Óc bò&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Thịt heo ba chỉ&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Vải hộp&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cá phèn&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cùi dừa già&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gạo nếp cái&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kẹo cà phê&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Khoai môn&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lạp xưởng&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mực khô&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mứt đu đủ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tai heo&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tim heo&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Bột sắn dây&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Cá khô&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Đuôi heo&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bánh phở&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cá nạc&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Củ từ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gan gà&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sữa bò tươi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thơm hộp&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bánh đúc&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bánh phồng tôm&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Chà bông cá lóc&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kẹo sữa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mắm tôm đặc&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pa-tê&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Thịt heo nạc&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cá trê&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Đậu Hà lan (hạt)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Gừng tươi&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lòng đỏ trứng vịt&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nhãn hộp&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Trứng gà&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cá rô đồng&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cùi dừa non&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Khoai tây&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Mứt thơm&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tép gạo&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tôm biển&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Bánh thỏi sôcôla&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Hạt điều&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Mật ong&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cá lóc&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chả lụa&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kẹo đậu phộng&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Phèo heo&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Thịt mông chó&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Chất xơ (g):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Carbonhydrates (g):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Protein (g):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Calories (kcal):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Beta Caroten (mcg):qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Photpho (mg):qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Cholesterol (mg):qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Vitamin C (mg):qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Vitamin A (mcg):qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Sắt (mg):qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Natri (mg):qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Vitamin B1 (mg):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Fat (g):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Carbonhydrates (g):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Protein (g):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Fat (g):qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Kali (mg):qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Canxi (mg):qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[__tableau_internal_object_id__].[cnt:Sheet1_0B5FB962BD1B4D879367E2BECACA0833:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_0B5FB962BD1B4D879367E2BECACA0833'>
+            <properties context=''>
+              <relation connection='excel-direct.0rr0zbi14ch14b1gr7758020xsfy' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:Q163:no:A1:Q163:0' header='yes' outcome='2'>
+                  <column datatype='string' name='TÊN THỨC ĂN' ordinal='0' />
+                  <column datatype='integer' name='Calories (kcal)' ordinal='1' />
+                  <column datatype='real' name='Protein (g)' ordinal='2' />
+                  <column datatype='real' name='Fat (g)' ordinal='3' />
+                  <column datatype='real' name='Carbonhydrates (g)' ordinal='4' />
+                  <column datatype='real' name='Chất xơ (g)' ordinal='5' />
+                  <column datatype='integer' name='Cholesterol (mg)' ordinal='6' />
+                  <column datatype='integer' name='Canxi (mg)' ordinal='7' />
+                  <column datatype='real' name='Photpho (mg)' ordinal='8' />
+                  <column datatype='real' name='Sắt (mg)' ordinal='9' />
+                  <column datatype='integer' name='Natri (mg)' ordinal='10' />
+                  <column datatype='integer' name='Kali (mg)' ordinal='11' />
+                  <column datatype='integer' name='Beta Caroten (mcg)' ordinal='12' />
+                  <column datatype='real' name='Vitamin A (mcg)' ordinal='13' />
+                  <column datatype='real' name='Vitamin B1 (mg)' ordinal='14' />
+                  <column datatype='real' name='Vitamin C (mg)' ordinal='15' />
+                  <column datatype='string' name='Loại' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Biểu đồ carb,protein,fat của từng loại thức ăn'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Times New Roman' fontsize='20'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (data)' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iqq3nk0xh69ac1enct6j1u969wu'>
+            <column datatype='real' name='[Carbonhydrates (g)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Fat (g)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Loại]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Protein (g)]' role='measure' type='quantitative' />
+            <column-instance column='[Carbonhydrates (g)]' derivation='Avg' name='[avg:Carbonhydrates (g):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fat (g)]' derivation='Avg' name='[avg:Fat (g):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Protein (g)]' derivation='Avg' name='[avg:Protein (g):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Loại]' derivation='None' name='[none:Loại:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Protein (g):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Fat (g):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Carbonhydrates (g):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Fat (g):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Carbonhydrates (g):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Protein (g):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <computed-sort column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]' direction='ASC' using='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Protein (g):qk]' />
+          <slices>
+            <column>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Multiple Values]' scope='rows' value='g' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]' value='39' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]' value='120' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Multiple Values]</rows>
+        <cols>([federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk] / [federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names])</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]</field>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]</field>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]</field>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Hạt, quả giàu protein, chất béo và chế phẩm&quot;</value>
+                <value>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Fat (g):qk]&quot;</value>
+                <value>20.644444444444446</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]</field>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]</field>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]</field>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;ĐỒ NGỌT (ĐƯỜNG, BÁNH, MỨT, KẸO)&quot;</value>
+                <value>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Carbonhydrates (g):qk]&quot;</value>
+                <value>78.42307692307692</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]</field>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]</field>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]</field>
+                  <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;THỦY SẢN VÀ SẢN PHẨM CHẾ BIẾN&quot;</value>
+                <value>&quot;[federated.1iqq3nk0xh69ac1enct6j1u969wu].[avg:Protein (g):qk]&quot;</value>
+                <value>21.217647058823534</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{6179DA46-CE66-46D0-9BB9-F30C46FE2E16}' />
+    </worksheet>
+    <worksheet name='Biểu đồ lượng canxi(mg) trong mỗi loại thức ăn'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Times New Roman' fontsize='18'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (data)' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iqq3nk0xh69ac1enct6j1u969wu'>
+            <column datatype='integer' name='[Canxi (mg)]' role='measure' type='quantitative' />
+            <column caption='Tên Thức Ăn' datatype='string' name='[TÊN THỨC ĂN]' role='dimension' type='nominal' />
+            <column-instance column='[TÊN THỨC ĂN]' derivation='None' name='[none:TÊN THỨC ĂN:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Canxi (mg)]' derivation='Sum' name='[sum:Canxi (mg):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Canxi (mg):qk]' />
+              <size column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Canxi (mg):qk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Canxi (mg):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3119DDB6-FD22-480E-AA25-CE3F3F64138F}' />
+    </worksheet>
+    <worksheet name='Biểu đồ thể hiện lượng Cholesterol(mg) trong thức ăn'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Times New Roman' fontsize='20'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (data)' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iqq3nk0xh69ac1enct6j1u969wu'>
+            <column datatype='integer' name='[Cholesterol (mg)]' role='measure' type='quantitative' />
+            <column caption='Tên Thức Ăn' datatype='string' name='[TÊN THỨC ĂN]' role='dimension' type='nominal' />
+            <column-instance column='[TÊN THỨC ĂN]' derivation='None' name='[none:TÊN THỨC ĂN:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cholesterol (mg)]' derivation='Sum' name='[sum:Cholesterol (mg):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Cholesterol (mg):qk]' num-steps='28' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Cholesterol (mg):qk]' />
+              <color column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Cholesterol (mg):qk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Cholesterol (mg):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{69D2A0D0-76D6-476D-A574-204AD2CF4E3A}' />
+    </worksheet>
+    <worksheet name='Số lượng thức ăn mỗi loại'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='22'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (data)' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iqq3nk0xh69ac1enct6j1u969wu'>
+            <column datatype='string' name='[Loại]' role='dimension' type='nominal' />
+            <column-instance column='[Loại]' derivation='Count' name='[cnt:Loại:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Loại]' derivation='None' name='[none:Loại:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]' />
+              <wedge-size column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[cnt:Loại:qk]' />
+              <size column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[cnt:Loại:qk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{332C36B6-A49B-486F-89D5-77FD7DE937E4}' />
+    </worksheet>
+    <worksheet name='Top 10 thức ăn có lượng Calories(kcal) cao nhất'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Times New Roman' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (data)' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iqq3nk0xh69ac1enct6j1u969wu'>
+            <column datatype='integer' name='[Calories (kcal)]' role='measure' type='quantitative' />
+            <column caption='Tên Thức Ăn' datatype='string' name='[TÊN THỨC ĂN]' role='dimension' type='nominal' />
+            <column-instance column='[TÊN THỨC ĂN]' derivation='None' name='[none:TÊN THỨC ĂN:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calories (kcal)]' derivation='Sum' name='[sum:Calories (kcal):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Calories (kcal)])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:TÊN THỨC ĂN:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' direction='DESC' using='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Calories (kcal):qk]' />
+          <slices>
+            <column>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Calories (kcal):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</rows>
+        <cols>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Calories (kcal):qk]</cols>
+      </table>
+      <simple-id uuid='{60C29EF6-34D2-45A8-BC2E-07C5512CE3C3}' />
+    </worksheet>
+    <worksheet name='Top 10 thức ăn có lượng Carbonhydrates(g) cao nhất'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Times New Roman' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (data)' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iqq3nk0xh69ac1enct6j1u969wu'>
+            <column datatype='real' name='[Carbonhydrates (g)]' role='measure' type='quantitative' />
+            <column caption='Tên Thức Ăn' datatype='string' name='[TÊN THỨC ĂN]' role='dimension' type='nominal' />
+            <column-instance column='[TÊN THỨC ĂN]' derivation='None' name='[none:TÊN THỨC ĂN:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Carbonhydrates (g)]' derivation='Sum' name='[sum:Carbonhydrates (g):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Carbonhydrates (g)])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:TÊN THỨC ĂN:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' direction='DESC' using='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Carbonhydrates (g):qk]' />
+          <slices>
+            <column>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Carbonhydrates (g):qk]' value='N' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Carbonhydrates (g):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</rows>
+        <cols>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Carbonhydrates (g):qk]</cols>
+      </table>
+      <simple-id uuid='{162F370F-1375-46BC-8756-00E8EEA30BE1}' />
+    </worksheet>
+    <worksheet name='Top 10 thức ăn có lượng Fat(g) cao nhất '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Times New Roman' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (data)' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iqq3nk0xh69ac1enct6j1u969wu'>
+            <column datatype='real' name='[Fat (g)]' role='measure' type='quantitative' />
+            <column caption='Tên Thức Ăn' datatype='string' name='[TÊN THỨC ĂN]' role='dimension' type='nominal' />
+            <column-instance column='[TÊN THỨC ĂN]' derivation='None' name='[none:TÊN THỨC ĂN:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Fat (g)]' derivation='Sum' name='[sum:Fat (g):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Fat (g)])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:TÊN THỨC ĂN:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' direction='DESC' using='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Fat (g):qk]' />
+          <slices>
+            <column>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Fat (g):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</rows>
+        <cols>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Fat (g):qk]</cols>
+      </table>
+      <simple-id uuid='{8F751023-49C4-4661-9C8A-5C05E3623DDE}' />
+    </worksheet>
+    <worksheet name='Top 10 thức ăn có lượng Protein(g) cao nhất'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontname='Times New Roman' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (data)' name='federated.1iqq3nk0xh69ac1enct6j1u969wu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1iqq3nk0xh69ac1enct6j1u969wu'>
+            <column datatype='real' name='[Protein (g)]' role='measure' type='quantitative' />
+            <column caption='Tên Thức Ăn' datatype='string' name='[TÊN THỨC ĂN]' role='dimension' type='nominal' />
+            <column-instance column='[TÊN THỨC ĂN]' derivation='None' name='[none:TÊN THỨC ĂN:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Protein (g)]' derivation='Sum' name='[sum:Protein (g):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Protein (g)])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:TÊN THỨC ĂN:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' direction='DESC' using='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Protein (g):qk]' />
+          <slices>
+            <column>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Protein (g):qk]' value='N' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' />
+              <text column='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Protein (g):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</rows>
+        <cols>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Protein (g):qk]</cols>
+      </table>
+      <simple-id uuid='{78BF9408-869E-47CA-A749-B076670EFD3A}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='37'>
+    <window class='worksheet' name='Số lượng thức ăn mỗi loại'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{48BA1718-7DAF-4A7F-BAB9-659BD6421B80}' />
+    </window>
+    <window class='worksheet' name='Top 10 thức ăn có lượng Calories(kcal) cao nhất'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A71A89DA-252B-405A-92D5-495AD79FE7D4}' />
+    </window>
+    <window class='worksheet' name='Top 10 thức ăn có lượng Protein(g) cao nhất'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ACC8E9E7-7CDB-484B-97D8-F8EF1371DEB7}' />
+    </window>
+    <window class='worksheet' name='Top 10 thức ăn có lượng Carbonhydrates(g) cao nhất'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B00905E0-4319-48EE-A8E8-2BC11E2112D3}' />
+    </window>
+    <window class='worksheet' name='Top 10 thức ăn có lượng Fat(g) cao nhất '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F30E7B76-3754-4E50-A209-A55E4D909B98}' />
+    </window>
+    <window class='worksheet' name='Biểu đồ thể hiện lượng Cholesterol(mg) trong thức ăn'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Cholesterol (mg):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:TÊN THỨC ĂN:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8309AF4F-9868-4B7B-AD32-91663B3E038E}' />
+    </window>
+    <window class='worksheet' name='Biểu đồ carb,protein,fat của từng loại thức ăn'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[Loại (group)]</field>
+            <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[none:Loại:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{552ADD87-426B-4A29-9ECC-657D9E52BED1}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Biểu đồ lượng canxi(mg) trong mỗi loại thức ăn'>
+      <cards>
+        <edge name='left'>
+          <strip size='116'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Canxi (mg):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1iqq3nk0xh69ac1enct6j1u969wu].[sum:Canxi (mg):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9BE343AC-EADD-47F6-923B-03116B370C40}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Biểu đồ carb,protein,fat của từng loại thức ăn' width='192'>
+      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
+      YII=
+    </thumbnail>
+    <thumbnail height='192' name='Biểu đồ lượng canxi(mg) trong mỗi loại thức ăn' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Biểu đồ thể hiện lượng Cholesterol(mg) trong thức ăn' width='192'>
+      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
+      wP8BvvVOcMV8Oq4AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Số lượng thức ăn mỗi loại' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Top 10 thức ăn có lượng Calories(kcal) cao nhất' width='192'>
+      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
+      ngNIbe3/A4qaCGI1OknJAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Top 10 thức ăn có lượng Carbonhydrates(g) cao nhất' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Top 10 thức ăn có lượng Fat(g) cao nhất ' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Top 10 thức ăn có lượng Protein(g) cao nhất' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAeeUlEQVR4nO2dWWxk15nff3epvYrFfWezuXST3Ww2u9Utdlut0cjwyIqE2BlMENvJzASO
+      EQwQYCYTIM6DM0iA8UPykEHyEgQIkLcAwcAzlkcztuSJ7diy5Jbc+8J9Z3EtFqtY+3a3PJBs
+      STNSdxeryCKrzu+lu1j3fvc7p+pf97vnfN85kmVZFgJBlSKX2wGBoJwIAQiqGiEAQVUjBCCo
+      aoQABFWNEICgqhECEFQ1QgCCqkYIQFDVVKQADMOgFBPchmFgmmbRdizLQtf1ou0Aws4zKLSv
+      K1IApczuOG6ZIqXyp1LtFGpLLdlVjxn/7XsfYRT5673fj5JUnC8Wux+KXKwhwDQtZFnY+TwK
+      7euKFcCvxlbQjeLDF0FlU5EhkEDwvAgBCKqasoVAweVZpucX0FUf54dHyG0vETfcDA32fLYq
+      9RTLwSzdHQ1AmsBymlPdjQBENgMsBxOcHRzA46jYqE5wCJTt29LSfQbZSBGvOUdLDTycT5BD
+      Q9NN5sfvEM+YeDxuUjmJ0avDyKZGLJEmtJrA0VjD/OQEG5tOzl4YIR6LkUmnSOc0IQBBQRyL
+      ECi8vIC3a5CBDi+LgW2ypsJAZwOWq5E61SK/d1xg5iGBmInPqeCrb+V8Xxeh4AahhMnolfMs
+      zSyUtR2Ck8exEIDdaSMZT5JMplAddmx2O7Ks4LDbkGWZ/VHdzt4BzMQ2OcPC4XShKDKyJKNr
+      WdKpBKi2srZDcPIoa7xQ03Ial6ridfTRtDRLiibOtPuJ+yTcNoV2y4bkt2MHUN30dHfgtbUS
+      S8Gp7gbsLplWB7T47Syuxxi5cKaczRGcQKRKLIrXdZ2v/+lbYh5A8EyORQgkEJQLIQBBVVOx
+      IdDdmU3MIltmmiaSBJJU5O+EZWGaJrKiFGcHMAwdRSn+0a1S7RTa1xUrAEVRkIpMPjMMAwCl
+      yC+uZVkYhoGqFv8Ba5qGzVb8aFel2tlPh35eWyIEElQ1QgCCqqZiQ6D8j/8dkllcldFu10jF
+      1wNYeznqxyhvvlLtFNrXFZs4Yyy8B0b+2QceIaWalRB2SmdLhECCqkYIQFDVHEgA2cQ2H314
+      k18/mGRnZYWYvjtcaFkG0+NjZPS9G5ChsbSy9uS8ZHiDu3fvEklpBV0vtbPJ7PImFmAaOnPz
+      8wCE1xcJBKMHaYJAABzwGWB6cpahK9fw2mSCU2PMPwpiw8mli/1kUknGxiYZGT6P3TIJzE+x
+      sbpC/9AIeiJOLpcjlc6ghxcJhBIorlqGe5t5+GgCTYcLo9fwqhaLU4/ZTpmcO9vD+PQiDl8T
+      pgWSZRKNRUmEN5hZ2qCuzYGeVXjwaBxf0ykGetpL3UeCCuZAd4C8JeO27U80yXSfHaLFqZPM
+      G1iSxGZggWgqB4CvoY3Rq+dYnp5iZSvL9eujbCzOkEyk6Dk/gqwnWFle4tTgCE0ui6wBZLfZ
+      ynm5cukCKjqSJLO6MEn6EzeOhYUVLo1eI7m1ytTsHH0XXqCvq6UEXSKoJg4kgHqPwvxKkO1w
+      BJBx2FUUWSa9tYxVe5rWWi/GXh6CaersbG2hePxYepZ4PIaOgiIr2FQVWZZRFYlEIk40lty9
+      gOrCSEdJJBMEZhdp7hug1qPyyVVObIrFTjRGTrfwO1W2I1FS6Uyx/SGoMg4UAvUOXWZlYZ5o
+      ykdXVxeoCmbnaRSni+zcLM7+Ieo8dlAkWmvdbKdVhge7MdJ1zC1vcvnyCOSS2BTo7j6NQ4GF
+      hQDxnIlNAVQvFwc7Wd3aoXfoPPPzy/RfuIrbBpKk0t/Xj89tZ35ukXMXL1LvdbCyMEsqZ8df
+      4g4SVDbHYiJMyyYYG5uiprWb3s5mip0O0XWdzP8YPXbzAILjx7GYCLM5fVy++mK53RBUIWIe
+      QFDVHIsQqNToug6rH328uOcBMU0TJJCLrAew9nLUi02rBtANHbUEefOVasfCwjSev68rVgCi
+      HqA67Yh6AIGgAIQABFXNsRgFOgxC/+XPYC+EOSj70WGxoRR7OepSKfLdTWHn6YYK6+uKFUD2
+      0WMo0bY7gspFhECCqkYIQFDVlE8Aepqf/+Q9MqaFZWb46Y/fJZH7+G3LsvjU+KyeZGEltPci
+      xeLC1pO3QmuL3Ln3iGRWhDyCwijfM4Bl4HTLrKyEaZQi4LCTzaaJhKK018i8/3CN/k4P68E4
+      50au4Fd0kqksG8tzeFrqmZ8cZzM4z5kLl0kmEmi5NOlsHq+zYh9rBIdAWUMgt7+FVGyLrXiW
+      1lo3pp4nEo1hZhPUt7cQDOuMjl7F59h1c3n6PhspFZ9ToaG1m+GzPURCG4TTEtdeHGZ5br6c
+      zRGcQMoqAEmx4zDTpLHhUCUkWSaXSbO+GcRABT1FZCdCVtstBOjqPw+JLVJ5A9VmQ5YlZFlF
+      zybZDgWR7e5yNkdwAilfvKC46DnVglOqI2W5sFsZbC4vp5tcrEU9nGlvwNnmZmk1hK+2ASQP
+      faeduG1tJDXo6XHjcMq0u6CtzsX6dpKLQ6fK1hzByaRic4HWv/ktMQ8geCZiGFRQ1QgBCKqa
+      ig2B9OmZ41MPUGCO+tM4bvn3x82OqAdA1ANUsx1RDyAQFIAQgKCqqdi8gf915yPMIjcJ289G
+      kopcqKVUdmAv173Y+oQKtlOorYoVwGIkjFF5jzeCEiNCIEFVIwQgqGoOVQCpnU0++uhDbt78
+      kLnAOpFw7Ml7ka0gmrm7Xs4+0XCE/SpeU8+yuhH6eCjfyBGO7i2eS55IOPnkPC0dZWY+8GRB
+      XoHgeTlUAXjqWrk+chrF00X/qXqWFxaZGBsnlTdRbXZS2wH+8u0fsrAaBGAzsMz01DihWBpJ
+      UgguTrG2Lxojw9rmDrlklGQuyfzUPBOTM+QMi+DGBpFQkGRO5P4ICuNIQ6BkMk1nVwPTk0ss
+      T8+i1tTT2t5BR3M9AKah0dh+ivnxB8xPPab+9HmC02Mk924Lkc0Aj+bWcNlkUtk8DR6F5cAa
+      q1txBvtbmZlZOsrmCCqAIxVAbUMzNX4/dml/hlXFpqrYbbuDUYrdhd/nwWFXyeYNavw11DgU
+      cntRkmpTsQwLJImGplZ8Pi+SpaHYnfj8taDlPu/SAsFncvjDoKqb5gYTUKivrwEU6ur9mG4Z
+      RbXTYDeYXtpgsKedmhon92/dorGtl656G4/G7mL3t9BvA3Q7p/vO4JNThGIG9fUeVLtKba0T
+      h5Hm9r1J+s8NH3pzBJVF2XKBotshPPVN2A7hHqTrOv/xZz8W8wCCZ1K2ibDaxqZyXVogeIKY
+      BxBUNRWbDr2WiFNsw0zTRJJAKrIeAMvCKNH+AIaho5Qgb75S7YCFIeoBRD1AtdoR9QACQQEI
+      AQiqmopNh/7u3/4JhllcasR+bFiKLPXjljdfqXYKtVWxApjfnkEvUgCCykeEQIKqRghAUNWU
+      QQAW4Y1lbt+5RzSZJhz9uEYgvr3BTir3iddh8vtnWSZry/NsRRJH7K+gkjlyARipIGOBJJdH
+      hrBZeQKLszx4OE5WN9G1LPdu3ya9txp0eDXA+MQjNsIJMLKsbwRZ3wxBPkVgJcDjiVl0yyIW
+      WuP+w4dE4tmjbo7ghHPkAoisLtM1cA7V5sBpV0lkdPpb7MysRcnrJi11Tu49mADAtHTaTvWz
+      PPOYhdlpGrvPoSbXiES3mdvK0+DOs7KxxeT8Fv2tXpaCkaNujuCEc+QC8Dc3s7kcwDR0dMOk
+      obEJr9sFaARWwzQ2t2Lq6V3nFAcetxO7TUXTdFxuNz6nSk6HxuZmXC43GHmcLj+KVPRKiIIq
+      5MgFYK87TYc7ye27D0jkob7WD3YvjT4PDX4Ha1tR2lpbAPDVe5m4fYua5m76zgyyPvOAqK2F
+      1jofjV47DncNtf4mXPIOj6YWsEoyYi+oJk58LpBlGkw8vEM8K3Fu5BK1bju6rvOtP/+GmAcQ
+      PJMTPxEmyQpDl6+V2w3BCUXMAwiqmhMfAn0Wuq6zGgtgFVkRsL9mkSwXuT+Atbv+UUn2B9D1
+      kqRVV6qdQvu6YgUg6gGq046oBxAICkAIQFDVnPhRoM8jPvFvwCqyHsDaqwUowfTCccubr1Q7
+      hdqqWAEY6UWwtHK7ITjmiBBIUNUIAQiqmmMlgFwqws33P+DmnYdoukkmHmJyfnX3TS3BzOLm
+      3pEJZmc2n5wXWlvkzr1HJLMi9UFQGMfqGWBhcoZzoy9R55DJp2OMTcyRl92YfZ3IlkE2lycw
+      O4m/q4X5iUdsbc3Rd+EFYuEwuUyWWCqL1+ktdzMEJ4hjdQfIGBJu+65LpmEgSRLbi0vs7wWz
+      PHmPbcOD36nQ0XuOy0NnSEQ2SZkubrz0IhsLC+VzXnAiOVZ3gO6OOu7fH6ep3ofTSKD4GvA5
+      Pt426dTACFJik2ja/eQcSbajpdeZn5tF9fjL47jgxHKsUiEsyyK+EyZryjTW+tjeDuNwuPHV
+      1aBYBtm8iV0xyeogI2G3yegGWHqGSCJLU1Mjqiyh6zrx+78jhkEFz+RYCaBUCAEInpdj9Qwg
+      EBw1QgCCqqZiQyDy60hScU0zjN39AUpRD2AYJqoq6gEO206hfX2sRoFKieLqKj65qoT1ABgG
+      Sgk+YFPTUEqQN1+pdizLwtL157YlQiBBVSMEIKhqKjYE+sV//yGmYTz7wKdRqg0CrF1TpUh3
+      t6zKtXP997+It/FoJzMrVgDJUAzTMMvthqAADP3oPy8RAgmqGiEAQVVzKCFQLLTC2MwKiqJw
+      5sJl9PAyqzsZBs8N4XF8/pDizMw0Z88OAJCJbzM5s0xrzxnaG2o+fWBum+kNiYHTDYBFeG2R
+      lK2BU80iGe6kY1kmP/mr/8NmPEfX0Cu06st8NLNKW+8VXn95GMkyuf3zHzO9FsLbOsBvv3a9
+      qOsdigDmF9a4cu06irU79r0YSJJNpYklU8w/GiNjWHgaTnPhTAe5WJBbj+Zo6uxhZ3OZW5EI
+      rvoOOnwmOS1HOBzFiK6yFoqjyy5eGh1BtgzmJifZWrEx9MJVtkJhIql1JOkiXU01z3ZQcGyR
+      JJkvfeVrrMzeZ2w9ykw0x7/459/k3e+/TY5hnEhcfuXLjOTi/OAnHxZ9vUMJgQwkJCPDw1/9
+      X8ZW4rszs1qa5Y0QssPP6PUbkA0DMDG7yhdevsFgTzve+lZGr13DysfRNB1JgsDSMhld4tLl
+      qzQ5FfZrvrr6znN1uJ/V5XkyuLnx0osElxYPozmCI2Z9YYI740v4vAqq4gTApai7afGSRHR9
+      jrfeeZ/Xv/zloq91KAJoqXPyeGoJt8+Pw2YSjqRpqKvBNP/+sGR7vYvHE9OsBcOf+ntwa5v6
+      xgbkz0ln2AmtMz27QG1DG1oqwvTUJKq37jCaIzhCLCvFUmCHttZGNjeieJQwP3//F2zgREns
+      sB1N8v23f0RHRzMrq2tFX+9QcoEsyyQe3UGzFOrq/GQTUfKmgsvtRLIs7A4H+VwOh8PxpAZA
+      cfqwKeCw28nl88iWQSyVxeVyY1NlVJsNPZ/H5nAgmQY7OzugOqn1e9GyKWKpPPV1tSh79QDv
+      fvfPxTDoCePVP/oKNS21hIOrxDImHZ2d2CWdwMo6LZ2nUPUsWUslvr1GOmfg9NbS1db0KRuF
+      Lo1YsclwQgAnj1f/6Cv4W4u7i4u1QQWCAhACEFQ1FRsC5eIZitweAMPcXZlCloqsB2BveXTl
+      +OTNH0c7voYa5CJrJgoNgSo2F8hd5xX7A5wwO8V++Q+CCIEEVY0QgKCqqdgQ6Pt/9h0MvRLX
+      CrUoyYYFR2jnxTe/Ru/IaAmuVXoqVgCJyDamUYkCOHlouWy5XfhcRAgkqGqEAARVzZGEQD/5
+      0V/irW3F09TFxbOdTDy4h+Vt4Xz/qadGj6uTU9SdG8QDWEaO8fFJVE8Dg31dR+G2oMTc++Bd
+      JpbC2PydDDVb3J9ZZXJihe/8p+/gBOZu/jXvTMQ4faqXN3/rBuoR/DwfugBMQ8flb+bK6HWm
+      7t0jk6sjntExsyESzS62whaNtgRpbzvttS4e3/2QjGbirD+FOxXh3q1fo8puhvuaicWTWBkL
+      o1nlZ3cXcckGQ1dGWZ28SzKTpe7URc51Nx52kwQH5OL11xi+kuLtv36PwWtfZXAkyo/+3x28
+      gA4sL27hcLrp6+9DKc1+ec/k0DVmZJMEg0FCO0kcikJWy2NZEAuvsZPIkMnk0XIZcnsF0ZLd
+      w+j1G+iJELLdx6XRa9Q5LVZWA5y/8hJnazXWonla+y5wYaCTWCSI7Ori6lA/WU0shnucSQbn
+      +d7bP+NLX30TFZi5+yFnRq4/mbD80u/+S/7gn32NRzffIZk/mkTGQxeAzVOL320jHlphR3Zi
+      bgWRfbW4HCqSrBLZCjC7EMDYS1vIJqNMTTzGsHk+5Zzf72d2cozZYI6Gj7cHQJbdxMNLzMwv
+      oZVhVQHB86Lxvb/4G1pb6pmfWUDPxZgKK5xr94KWIrCxw6Pbv+Tn7/2SjOnCdkS3gCN5Brj2
+      0ivolsrZGh+yZNK2sIBn9BVqvW7qPW6QbThdLgBsDhctbV30+/2ga8hA38AgqqoiWfMofWfw
+      +GwM+mVUyY3PAiNZTzy6Q43XdRTNERwIhX/8T3+XdF7H5vAgq27eeP3V3TWFZDu1NSbdrS8S
+      3Aozev1lnGoFCcDnr//EK4VTfWeevPLW1H7q2LODQ7jcez/xdjsAsm3337buj8/b3UlJRrIs
+      auvqcdQ00doiKsKOLzINLW00fOIvrv3UH8VGjQdUm42Ozs4j9erYTYQ9+fI/J5IkUd/cdkje
+      CCodMQ8gqGoqtx4glSjazm4Rv1SS/QHMEi2Prusaqlp8+vFR2rG73NjsjqceU6q0alEPsIe7
+      plbUA5wgO+VChECCqkYIQFDVVGwI9Mdv/QG6eXzSoS3LKn7LphNo51/d+GOG2y8VfZ3DomIF
+      EM3sHCsBVCuacbzTU0QIJKhqhAAEVU1ZQ6BocAXT24rXihPK2Ghv8LC0sEBHbz92+bPjSssy
+      WZqfp6OnD7sig2mwEQrT1tJ8xN4LCuHmT3/AwkYcd/MA3c4dJgLbTM8G+fff/TZuYOLWezxe
+      XEd3NPHNf/LGkflVVgF4a2u5NzaBgzxnhi6wsbVDU2sDkWAMty3N9NImgxeG8dp01kMZ/E4T
+      w+bCkp1YuQT3J2ZoO91PYGmW9UCAnnPD1HufPuEiKA/XvvhVhqPr/PSDWV54/Q2Gdlb42YMN
+      9hNfBq68zOClDG/9+JdH6ldZQyDV7qVG2iGp1ONSNFbWt3G7LVZWQkzNBhgZGcahSEiKk0Rw
+      lonFEG67wU40wczENH0XRqjzODAtleHzp1heCZWzOYKnEFx4yLvvT/DaG68iYfHw7gMuXrr4
+      5P3kdoC33/kFv/Xa60fqV1kFoGViJORmaoxt4jkDyzDJxOPofLz15pMRNklGz+cwrY//vp/D
+      4anxY7epKJ8TNgnKTY7v/cU7+JwWE5Pz6KlNNvK1dNU5IRtlYT3K3/zgLRweF2Pjk0fqWVlz
+      gWKhDZSaZlxWiq2kRS68QtyUaaprx2vPMr24wcDQMB45Syhh4VWy5GQnWiZPXY2NiYkZWnvO
+      olg6TbVuQjGdpnovuq7zrT//hhgGPQZ8+4t/wgtdV4iGI+QNE7vTQ43HjmbKOGwKGBppDXLJ
+      HTQTZJuDxrqD7/V2onKB/E37acw1tDmBv7NJ8tX61r3/eWlpAPDh2T0cgEtXrn7q+KZ6BMcS
+      mdqGT9dqOz5RC+BWwKbUlSWnSAyDCqoaIQBBVVOx9QAZPV20HcM0kaD4egAsDMNELTKtGo7n
+      uv5Ps+OyuZ9rXwRRD1BivA6fqAc4QXbKhQiBBFWNEICgqqnYEOib//lt9CK3SbUsCySQil5H
+      38KyOFF5/IXaaanz8F//8GhncUtBxQogmckXLQDB8+N12cvtwoEQIZCgqhECEFQ1zx0CTTz4
+      iHhWoqnjNL2dzQRX5ojkHAyeOfVUFaW3N8j7Wqh1yGCZrC0vkjJt9Pd0IT9XDGqxsbZJa0cb
+      EhAPBbHVt5AKLrMZy3P2bD/2o1pLW/BM0uEAf/W3vySVyvLFN3+b937wv7H7G7n8yhtc6G4k
+      vb3IW+9+QGwrQNf13+GrN86V1d/nvgMkNIlro1dJri8Qy+UJhcJEtrfQDI31tSB6LkVweweA
+      SDDA/Xv3mAsEycW3mZya4P7jaXTTIBLeJhLZQddzzM9Mc/vXt4hmdKJbq9y69WvmVoIA6LkU
+      j+7dYXF9m83VJe7fvc1qKI6WM5AUi0QsSjwWJadpLMyOc/vWHaKp/OH0kuC5cdZ18o2vf52R
+      3lZy6SzJbBKnp57WBh8A7sYefu/3f4+h80PcuHzmGdYOn+cSgJlPs7K0wPj8Gp2NPmIZDZvd
+      gbazzFwwwdrqJkY2yea+AMIhugeGia8tkceituUUDbYUq4ElrNoezjSqLKyH2IppXL7czdLc
+      BnOLG1y+OEQotAVAYG6K5r4LtDfWYFoy54eH2F5dI7y6SjYf4f5kgFx8i+mFVULRNCNnW1kO
+      7hxeTwmeCwmTn/7wLZSOYc73d/Cv/+1/4M3f7Oen79x5ckw2skjS0UmDu/xjMM/lgWx303W6
+      l/O9bdy+GaDPEyZsr+d8f571vI5p6aSTMfLGrjlZUVFl0JGQkfH5PMgpFU2WMTQDAwPZJuHx
+      +lBsNhQrh4aEZeSfrPEvSxKmaWKZMg63F7tdRd0PdSxoaDvNjatnyebyLK3ksatqSYb1BMWx
+      eutH3FnLM8QYzXUqD3/5ERktTlPfyyzPztN6po9bHz1m9JWjK3t8Gs8twWafk9t3H9I7fJmG
+      Gjubq7fZdNbS2eonrW2xEjXpbttNeTVyKR4+eED/2XPUqBqaXUJqbEd212FM32Ver2N0uJmd
+      eA6w0d7hQEvmePB4CtTdXOdTZ4eYmhhHaz5Ne3sbEgpt7S0oeh0uRz2DnTvcfzTF4PlB2lpb
+      wOGgvUEIoNy0X3mDPzyfBSRcHg/NX3kDzQC324We11CBL7z2ZknWJS0FB06GM7Q8OjIO29/X
+      0M72Jp66VuyfkUJj6jnyporz77y5tjDF6naS/nNDNPiK2+hC13W+/qdviXmAI6S13sv//PY/
+      PPD5Jy4ZTrHZ+bwUsbrG1s95B2TVgfMz/t7RO0hH70G9EQgOhpgHEFQ1FVsPoBnFN8s09x7I
+      i6wHgN3U6mLTquH41gPIkoTDfnB7Jy4EOu447cWPCpW2HkAqTT2ATGny+I+ZnXJRsXeAUmCa
+      JpIkFS0ky7KwLOtY3Ukq1U6hfV2xdwBFUUpyB5CkEm2RZJol+YCBktxJKtVOodV3FSmAUvzS
+      ltIOlKYWAI5f246bnUJtVWQIJBA8LxU9DGroGtlcnoNI3DINMpkMmUz2yXKMBduwLDRN3/u/
+      STaTwTiAsV07uxtNmPt+ZXOF2zF3fdB0A8uyyOeyaLpxAH9MctkMeU0HLLKZDJlMBrPAtu37
+      k8trWBboWp5s/mAbauhajkwmi2FamIZOJpMhm3t2cmRFhkAAmDluffhrFFWmsXuI3vbCdpGP
+      r81wZyVJi7+Gs+cGsB8ggpmffMD4SpR/9PqrLI7fJ5yz0CU31184X1CR5drCJDfHA3ztq/+A
+      jcUJFoNZ/A0NDA8UNnO4tjhNKJEjnsgzMtDEw9kQWAbXr1/DoT7/b+H2+hKBrRjRSJKXb5zh
+      Z+/N0NnRQP/ZATyO5/9KpXY2mQlsEd+JcfGFC0w8nkCxdLovvUx7TSEjSxbzU+OkNR1NrsNH
+      hJTpwFvbyGDv03eer9g7gBbbwtM5yNWrV4hFNgo+P5O3UE2NvAkHLTfoHRyhtd4NmMRyKldf
+      uILfylLob3d7zyDdbbsC1rU8pqljWRKF3ks6egcZ6OnE5XKyubrDC194kTNNtexkCvOosb2H
+      4YE+PG4X+WQGm0MmrxkoSmFfJ09dC41+J3aXh0w8SkffBa7duERwYbUgOyDR2XUKVVbw1niw
+      LAMtlwFJfmYfVawAJFnCNEwsywSr8G9wS+85XrnxBeqlHdZjB7stf/JhzLJ2J9VMyyq4xP6T
+      dk4NvMBv3LiGFVqn0K3A46EVxheDXBwZQpUsDBMMyyz4AT0bD/FgYp4Ll0fwNpzmtVdvcLrR
+      ztJqpDCHJAl/XSNuWSOd03cnHg0dSy58tMzmdNPYWE8yFuXcpS9w/fo1kqtLZJ9xXsWGQGpN
+      C/r4h9xcNzl9/krB52+vLTC7skU+b/DiwEG6yWDs7h2WFpdw+1torlH44OavcNa0Ulj5uMns
+      2EOWFpewuWppcpqshnbIYONCgXYePRxD8dUzOTlH/+lW7nzwPordxfUzhW0qMjv+iJTpYeLR
+      BP19TUzPLJPL5Rm+0lOQnfDaEjOrQfKZPJ2DLcw+esjqjMnQ9d8oyA7kGX/wkKxlonqbWJp6
+      zGY0geHw8ayWiVEgQVVTsSGQQPA8CAEIqhohAEFVIwQgqGqEAARVjRCAoGoJLd4WAhBUL6aR
+      FwIQVDdCAIKqRswEC6oWQ88LAQiqGxECCaqa/w/8OhrXzGFL0gAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
