@@ -6,7 +6,6 @@ For A lab course and more...
 
 Course: Trực Quan Hóa Dữ Liệu 18_21
 
-We want to introduce Vietnamese food and its nutrition to our foreign friends
 
 ## Data 
 
